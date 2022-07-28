@@ -1,4 +1,5 @@
 import QRCode from "react-qr-code";
+import React from 'react';
 import { withLDConsumer } from "launchdarkly-react-client-sdk";
 
 //Change QRURL to the URL where you'll be hosting this app
