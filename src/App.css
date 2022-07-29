@@ -34,8 +34,10 @@
 
 
 .toggle-logo {
-  height: 400px;
+  height: 300px;
   pointer-events: none;
+  display: block;
+  margin: 0 auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -108,8 +110,11 @@
 
 .qr-wrapper {
   border-radius: 15px;
-  border: 2px solid #000000;
+  border: 8px solid #000000;
   padding: 20px;
+  display: block;
+  max-width: 320px;
+  margin: 0 auto;
 }
 
 @keyframes App-logo-spin {
